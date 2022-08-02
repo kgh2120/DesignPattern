@@ -1,4 +1,4 @@
-package singleton.before;
+package creationalPattern.singleton.before;
 
 
 /**
@@ -12,6 +12,6 @@ public class Main {
         Setting s1 = new Setting();
         Setting s2 = new Setting();
 
-        System.out.println(s1 == s2);
+        System.out.println(s1 == s2); // false
     }
 }
